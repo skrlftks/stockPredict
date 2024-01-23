@@ -81,7 +81,7 @@ for step in range(pred_ndays):                      # 미래 예측.
 print(rdf)
 
 # ax에 추가
-ax[0].plot(rdf, clolor='green', marker='o', linestyle='--', linewidth=1.5, label = 'AR(5)')
+ax[0].plot(rdf, color='green', marker='o', linestyle='--', linewidth=1.5, label = 'AR(5)')
 ax[0].legend(loc='best')
 
-# plt.show()
+plt.show()
